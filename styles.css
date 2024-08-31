@@ -73,7 +73,16 @@ ul {
     height: 30px;
     border-radius: 5px;
     border: none;
+    transition-duration: 0.3s;
     border: 1px solid black;
+}
+
+.button-1:hover {
+    background-color: #f9faf8;
+    border: 1px solid #3882f6;
+    color: #3882f6;
+    font-weight: 900;
+    cursor: pointer;
 }
 
 
