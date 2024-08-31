@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-flow: column;
+    font-family:'Times New Roman', Times, serif
+}
+
+.first-section {
+    background-color: #1F2937;
+    color: white;
+}
+
+.first-section-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.first-section-a-1 {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.first-section-b {
+    display: flex;
+
+}
+
+.first-section-b-1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+.image {
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+}
