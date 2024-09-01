@@ -1,7 +1,10 @@
 body {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     font-family:'Times New Roman', Times, serif;
+    width: 100%;
+    height: auto;
+    font-size: calc(1vw + 1vh);
 }
 
 /*First section of website = Everything above text: "some random information*/
@@ -9,8 +12,9 @@ body {
 .first-section {
     background-color: #1F2937;
     color: white;
-    height: 400px;
-    flex: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
 }
 
 .first-section-a {
@@ -18,16 +22,12 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    gap: 435px;
-    margin-bottom: 50px;
-    flex: auto;
 }
 
 .first-section-a-1 {
     display: flex;
     list-style-type: none;
     gap: 20px;
-    flex: auto;
 }
 
 hero {
@@ -55,15 +55,12 @@ a:hover {
     justify-content: center;
     gap: 100px;
     align-items: center;
-    flex: auto;
 }
 
 .first-section-b-1 {
     display: flex;
     flex-flow: column;
     max-width: 400px;
-    min-width: 400px;
-    flex: auto;
 }
 
 .hero-main-text {
@@ -100,12 +97,14 @@ a:hover {
 
 .image-container {
     display: flex;
-    justify-content: flex-end;
+    flex-basis: 400px;
+    justify-content: center; 
 }
 
 .image {
-    width: 500px;
-    height: 250px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
     object-fit: cover;
     box-shadow: 0px 0px 10px 2px black;
     border-radius: 5px;
