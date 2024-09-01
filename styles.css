@@ -209,6 +209,13 @@ figure {
     width: 60%;
 }
 
+@media (max-width: 750px) {
+    .figcaption {
+       font-size: 12px;
+       width: 100%;
+    }
+}
+
 figure:hover figcaption {
     color: black;
     margin-top: 15px;
