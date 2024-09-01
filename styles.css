@@ -154,7 +154,6 @@ a:hover {
 .second-section-b {
     display: flex;
     justify-content: center;
-    gap: 30px;
 }
 
 @media (max-width: 700px) {
@@ -164,11 +163,11 @@ a:hover {
 }
 
 figure {
-    vertical-align: top;
     display: flex;
     flex-flow: column;
     align-items: center;
     gap: 5px;
+    width: min-content;
 }
 
 @media (max-width: 750px) {
@@ -206,13 +205,12 @@ figure {
     text-align: center;  
     color: white;
     transition: ease-in .3s;
-    width: 60%;
+    width: 100%;
 }
 
 @media (max-width: 750px) {
     .figcaption {
        font-size: 12px;
-       width: 100%;
     }
 }
 
