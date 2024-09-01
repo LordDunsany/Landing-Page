@@ -17,11 +17,19 @@ body {
     min-height: 400px;
 }
 
+
 .first-section-a {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
+    gap: 340px;
+}
+
+@media (max-width: 700px) {
+    .first-section-a {
+        gap: 0px;
+    }
 }
 
 .first-section-a-1 {
