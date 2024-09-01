@@ -79,9 +79,10 @@ a:hover {
     margin: 0;
 }
 
-/*.below-hero-main-text {
-    Nothing here at the moment. Had -30px margin, but removed when I realized h-elements had a default margin
-}*/
+.below-hero-main-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
 .button-1 {
     background-color: #3882f6;
@@ -119,3 +120,60 @@ a:hover {
 }
 
 /*Ending of first section of website*/
+
+/*Start of second section*/
+
+.second-section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    min-height: 400px;
+}
+
+.second-section-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-section-2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.second-section-b {
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    vertical-align: top;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    flex: 0 1 150px;
+}
+
+@media (max-width: 700px) {
+    figure {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.subimage {
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+
+
+.figcaption {
+    font-size: 15px;
+    text-align: center;   
+}
+
+/*End of second section*/
