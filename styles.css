@@ -145,6 +145,13 @@ a:hover {
 .second-section-b {
     display: flex;
     justify-content: center;
+    gap: 30px;
+}
+
+@media (max-width: 700px) {
+    .second-section-b {
+        gap: 0px;
+    }
 }
 
 figure {
@@ -177,3 +184,5 @@ figure {
 }
 
 /*End of second section*/
+
+/*Start of third section*/
