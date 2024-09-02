@@ -93,18 +93,21 @@ a:hover {
     color: #e5e7eb;
 }
 
-.button-1 {
+button {
     background-color: #3882f6;
     color: white;
     width: 100px;
     height: 30px;
     border-radius: 5px;
-    border: none;
     font-weight: 900;
     transition-duration: 0.3s;
 }
 
-.button-1:hover {
+.button-1 {
+    border: none;
+}
+
+button:hover {
     background-color: #f9faf8;
     border: 1px solid #3882f6;
     color: #3882f6;
@@ -277,3 +280,37 @@ figure:hover .subimage {
 
 /*Start of fourth section*/
 
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.fourth-section-a {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 70%;
+    height: 50%;
+}
+
+.fourth-section-a-1 {
+    display: flex;
+    flex-flow: column;
+}
+
+.h5-fourth-section {
+    margin-bottom: 0;
+}
+
+.p-fourth-section {
+    margin-top: 0;
+}
+
+.button-2 {
+    border: 2px solid #f9faf8;
+}
