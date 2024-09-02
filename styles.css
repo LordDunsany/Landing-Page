@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    gap: 340px;
+    gap: 56px;
 }
 
 @media (max-width: 750px) {
@@ -77,7 +77,7 @@ a:hover {
 .first-section-b-1 {
     display: flex;
     flex-flow: column;
-    max-width: 400px;
+    max-width: 430px;
 }
 
 .hero-main-text {
@@ -118,7 +118,8 @@ button:hover {
 
 .image-container {
     display: flex;
-    flex-basis: 400px;
+    max-width: 600px;
+    max-height: 250px;
     justify-content: center; 
 }
 
