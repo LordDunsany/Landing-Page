@@ -2,11 +2,11 @@
 
 
 ## Introduction: 
-The goal is to create a simple styled landing page without any functional links, using flexbox.
+The goal is to create a simple styled landing page without any functional links, using HTML and CSS.
 
 
 ### Preface: 
-This is my attempt at creating a landing page as similar to the example-page as possible. I will solely use flexbox to achieve this, since it is something I need to practice. My current understanding of coding is rudimentary, but I aim to improve.
+This is my attempt at creating a landing page as similar to the example-page provided by TOP as possible. I will solely rely flexbox to achieve this, beginning with a column layout. Hover effects will be added to buttons and links, but they will not be functional or interactive in any capacity.
 
 ### Post:
-I am content with the final layout of the page. Some solutions were unnecessary and perhaps to convoluted. My take away is that perhaps it is important to focus on the style of the code itself aswell and the readability. I think I managed this somewhat in the HTML, but for the CSS it was more difficult. I hope to keep improving as I go along with The Odin Project.
+I am content with the final layout of the page. Some solutions were unnecessary and perhaps convoluted. My take away is that it is important to focus on the styling/layout of the code itself aswell as the readability. I think I managed this somewhat in the HTML, not only with the tabs but also with the comment sections. For the CSS I find it more difficult. Many things could probably be simplified. Perhaps use the parent elements more for creating the basic designs and then the children for specifying. I also used some media queries for scaling purposes.
