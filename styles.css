@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    gap: 56px;
+    gap: 568px;
 }
 
 @media (max-width: 750px) {
