@@ -294,8 +294,15 @@ figure:hover .subimage {
     align-items: center;
     justify-content: space-around;
     border-radius: 10px;
-    width: 70%;
-    height: 50%;
+    padding: 10px;
+    width: 60%;
+    height: 40%;
+}
+
+@media (max-width: 750px) {
+    .fourth-section-a {
+        width: 80%;
+    }
 }
 
 .fourth-section-a-1 {
@@ -305,12 +312,34 @@ figure:hover .subimage {
 
 .h5-fourth-section {
     margin-bottom: 0;
+    font-size: 20px;
 }
 
 .p-fourth-section {
     margin-top: 0;
+    font-size: 20px;
+}
+
+@media (max-width: 750px) {
+    .h5-fourth-section, .p-fourth-section {
+        font-size: 15px;
+    }
 }
 
 .button-2 {
     border: 2px solid #f9faf8;
+}
+
+/*End of fourth section*/
+
+/*Start of fifth section*/
+
+.fifth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75px;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 15px;
 }
